@@ -4,7 +4,7 @@
 # 6782 -> 23
 # 0,56 -> 11
 
-from funct import input_number_test_float
+from Funct import input_number_test_float
 
 number = str(input_number_test_float("Введите число: "))
 

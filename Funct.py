@@ -3,7 +3,7 @@ def input_number_test_float(text):
     int_test = True
     is_minus = False
     while int_test:
-        coord = input(f"(text)")
+        coord = input(f"{text}")
         if coord[0] == "-":
             is_minus = True
             coord = coord.replace("-","")
@@ -19,3 +19,4 @@ def input_number_test_float(text):
             int_test = False
         else :
             print("Введенное значение не является числом")
+    return coord
